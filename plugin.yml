@@ -1,0 +1,17 @@
+name: OnlineUI
+api: 4.0.0
+version: 1
+main: OnlineUI\OnlineUI
+author: Ghost
+
+commands:
+  online:
+    description: "Show all player Online"
+    permission: online.cmd
+
+permissions:
+  online.cmd:
+    default: op
+
+depend:
+  - FormAPI
